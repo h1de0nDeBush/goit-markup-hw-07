@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -18,7 +19,7 @@
         <div class="container"> 
             <nav class="header-nav">
                 <a href="./index.html" class="header-logo link"><span class="web">Web</span>Studio</a>
-                <ul class="heder-list list">
+                <ul class="header-list list">
                     <li class="header-item"><a href="./index.html" class="header-link current link">Студия</a></li>
                     <li class="header-item"><a href="./portfolio.html" class="header-link link">Портфолио</a></li>
                     <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
@@ -52,71 +53,73 @@
 <!-- about -->
         <section class="about">
             <div class="container">
-                <ul class="about-icon-list list">
-                    <li class="about-icon-item">
-                        <svg class="about-icon-pic" width="70" height="70">
+                <ul class="about__icon-list list">
+                    <li class="about__icon-item">
+                        <svg class="about__icon-pic" width="70" height="70">
                             <use href="./images/symbol-defs (1).svg#icon-antenna"></use>
                         </svg>
                     </li>
-                    <li class="about-icon-item" >
-                        <svg class="about-icon-pic" width="70" height="70">
+                    <li class="about__icon-item" >
+                        <svg class="about__icon-pic" width="70" height="70">
                             <use href="./images/symbol-defs (1).svg#icon-clock"></use>
                         </svg>
                     </li>
-                    <li class="about-icon-item">
-                        <svg class="about-icon-pic" width="70" height="70">
+                    <li class="about__icon-item">
+                        <svg class="about__icon-pic" width="70" height="70">
                             <use href="./images/symbol-defs (1).svg#icon-diagram"></use>
                         </svg>
                     </li>
-                    <li class="about-icon-item">
-                        <svg class="about-icon-pic" width="70" height="70">
+                    <li class="about__icon-item">
+                        <svg class="about__icon-pic" width="70" height="70">
                             <use href="./images/symbol-defs (1).svg#icon-astronaut"></use>
                         </svg>
                     </li>
                 </ul>
-                <h2 class="about-title">Чем мы занимаемся</h2>
-                <ul class="about-list list">
-                    <li class="about-item">
-                        <h3 class="about-item-title">Внимание к деталям</h3>
-                        <p class="about-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                    </li>
-                    <li class="about-item">
-                        <h3 class="about-item-title">Пунктуальность</h3>
-                        <p class="about-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                    </li>
-                    <li class="about-item">
-                        <h3 class="about-item-title">Планирование</h3>
-                        <p class="about-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                    </li>
-                    <li class="about-item">
-                        <h3 class="about-item-title">Современные технологии</h3>
-                        <p class="about-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                    </li>
-                </ul>
+                <div class="benefits">
+                    <h2 class="benefits__title">Чем мы занимаемся</h2>
+                    <ul class="benefits__list list">
+                        <li class="benefits__item">
+                            <h3 class="benefits__item-title">Внимание к деталям</h3>
+                            <p class="benefits__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        </li>
+                        <li class="benefits__item">
+                            <h3 class="benefits__item-title">Пунктуальность</h3>
+                            <p class="benefits__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        </li>
+                        <li class="benefits__item">
+                            <h3 class="benefits__item-title">Планирование</h3>
+                            <p class="benefits__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        </li>
+                        <li class="benefits__item">
+                            <h3 class="benefits__item-title">Современные технологии</h3>
+                            <p class="benefits__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
             
         </section>
 <!-- projects -->
         <section class="projects">
             <div class="container ">
-                <h2 class="projects-title">Чем мы занимаемся</h2>
-                <ul class="projects-list list">
-                    <div class="projects-wrap">
-                        <li class="projects-item">
-                            <img class="projects-img" src="./images/1st.jpg" alt="компьютер" width="370">
-                            <p class="projects-text">Десктопні додатки </p>
+                <h2 class="projects__title">Чем мы занимаемся</h2>
+                <ul class="projects__list list">
+                    <div class="exemple-card exemple-card-position">
+                        <li class="exemple-card__item">
+                            <img class="exemple-card__img" src="./images/1st.jpg" alt="компьютер" width="370">
+                            <p class="exemple-card__text">Десктопні додатки </p>
                         </li>
                     </div>
-                    <div class="projects-wrap">
-                        <li class="projects-item">
-                            <img class="projects-img" src="./images/2nd.jpg" alt="телефон" width="370">
-                            <p class="projects-text"> Мобільні додатки</p>
+                    <div class="exemple-card exemple-card-position">
+                        <li class="exemple-card__item">
+                            <img class="exemple-card__img" src="./images/2nd.jpg" alt="телефон" width="370">
+                            <p class="exemple-card__text"> Мобільні додатки</p>
                         </li>
                     </div>
-                    <div class="projects-wrap"> 
-                        <li class="projects-item">
-                        <img class="projects-img" src="./images/3rd.jpg" alt="новые технологии" width="370">
-                        <p class="projects-text">Дизайнерські рішення </p>
+                    <div class="exemple-card exemple-card-position"> 
+                        <li class="exemple-card__item">
+                        <img class="exemple-card__img" src="./images/3rd.jpg" alt="новые технологии" width="370">
+                        <p class="exemple-card__text">Дизайнерські рішення </p>
                     </li></div>
                 </ul>
             </div>
@@ -223,35 +226,35 @@
 <!--clients-->   
         <section class="clients">
             <div class="container">
-                <h2 class="clients-title">Постійні клієнти</h2>
-                <ul class="clients-list list">
-                    <li class="clients-iteam"><a href="" class="clients-link list">
-                        <svg class="clients-icon" width="106" height="60">
+                <h2 class="clients__title">Постійні клієнти</h2>
+                <ul class="clients__list list">
+                    <li class="clients__iteam"><a href="" class="clients__link list">
+                        <svg class="clients__icon" width="106" height="60">
                             <use href="./images/symbol-defs (1).svg#icon-Logo1"></use>
                         </svg>
                     </a></li>
-                    <li class="clients-iteam"><a href="" class="clients-link list">
-                        <svg class="clients-icon" width="106" height="60">
+                    <li class="clients__iteam"><a href="" class="clients__link list">
+                        <svg class="clients__icon" width="106" height="60">
                             <use href="./images/symbol-defs (1).svg#icon-Logo2"></use>
                         </svg>
                     </a></li>
-                    <li class="clients-iteam"><a href="" class="clients-link list">
-                        <svg class="clients-icon" width="106" height="60">
+                    <li class="clients__iteam"><a href="" class="clients__link list">
+                        <svg class="clients__icon" width="106" height="60">
                             <use href="./images/symbol-defs (1).svg#icon-Logo3"></use>
                         </svg>
                     </a></li>
-                    <li class="clients-iteam"><a href="" class="clients-link list">
-                        <svg class="clients-icon" width="106" height="60">
+                    <li class="clients__iteam"><a href="" class="clients__link list">
+                        <svg class="clients__icon" width="106" height="60">
                             <use href="./images/symbol-defs (1).svg#icon-Logo4"></use>
                         </svg>
                     </a></li>
-                    <li class="clients-iteam"><a href="" class="clients-link list">
-                        <svg class="clients-icon" width="106" height="60">
+                    <li class="clients__iteam"><a href="" class="clients__link list">
+                        <svg class="clients__icon" width="106" height="60">
                             <use href="./images/symbol-defs (1).svg#icon-Logo5"></use>
                         </svg>
                     </a></li>
-                    <li class="clients-iteam"><a href="" class="clients-link list">
-                        <svg class="clients-icon" width="106" height="60">
+                    <li class="clients__iteam"><a href="" class="clients__link list">
+                        <svg class="clients__icon" width="106" height="60">
                             <use href="./images/symbol-defs (1).svg#icon-Logo6"></use>
                         </svg>
                     </a></li>
